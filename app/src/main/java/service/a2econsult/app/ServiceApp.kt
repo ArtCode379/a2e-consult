@@ -8,7 +8,7 @@ import org.koin.android.ext.koin.androidContext
 import org.koin.android.ext.koin.androidLogger
 import org.koin.core.context.GlobalContext.startKoin
 
-class ServiceApp : Application() {
+class AECNLTApp : Application() {
 
     override fun onCreate() {
         super.onCreate()
@@ -17,7 +17,7 @@ class ServiceApp : Application() {
 
         startKoin {
             androidLogger()
-            androidContext(this@ServiceApp)
+            androidContext(this@AECNLTApp)
             modules(appModules)
         }
     }

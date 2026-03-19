@@ -6,11 +6,11 @@
     <string name="price_per_hour">£%1$.2f / per hour</string>
 
     <!-- top bar titles -->
-    <string name="top_bar_home_title">App Title</string>
-    <string name="top_bar_bookings_title">Bookings</string>
-    <string name="top_bar_checkout_title">Checkout</string>
+    <string name="top_bar_home_title">A2E Consult</string>
+    <string name="top_bar_bookings_title">My Bookings</string>
+    <string name="top_bar_checkout_title">Book Consultation</string>
     <string name="top_bar_settings_title">Settings</string>
-    <string name="top_bar_service_details_title">Details</string>
+    <string name="top_bar_service_details_title">Service Details</string>
 
     <!-- bottom bar navigation item titles -->
     <string name="bottom_bar_nav_item_home_title">Home</string>
@@ -18,30 +18,32 @@
     <string name="bottom_bar_nav_item_settings_title">Settings</string>
 
     <!-- onboarding screen -->
-    <string name="page_1_title">Page 1 Title</string>
-    <string name="page_2_title">Page 2 Title</string>
-    <string name="page_3_title">Page 3 Title</string>
-    <string name="page_1_description">Page 1 Description</string>
-    <string name="page_2_description">Page 2 Description</string>
-    <string name="page_3_description">Page 3 Description</string>
+    <string name="page_1_title">Strategic Vision</string>
+    <string name="page_2_title">Operational Excellence</string>
+    <string name="page_3_title">Growth Partners</string>
+    <string name="page_1_description">We craft forward-thinking strategies that align your business goals with market opportunities, driving sustainable competitive advantage.</string>
+    <string name="page_2_description">Our consultants optimise your processes, reduce inefficiencies, and build organisational frameworks that deliver measurable results.</string>
+    <string name="page_3_description">Partner with A2E Consulting to unlock your full potential. From market entry to digital transformation, we are with you every step.</string>
     <string name="next_button_title">Next</string>
-    <string name="start_button_title">Start</string>
+    <string name="start_button_title">Get Started</string>
     <string name="skip_button_title">Skip</string>
 
     <!-- home screen -->
-    <string name="services_state_empty_primary_text">No services available</string>
+    <string name="services_state_empty_primary_text">No services available at the moment</string>
     <string name="button_view_details_text">View Details</string>
+    <string name="hero_tagline">Empowering businesses through expert management consultancy</string>
 
     <!-- service details -->
-    <string name="service_image_description">Service</string>
+    <string name="service_image_description">Service image</string>
     <string name="button_book_consultation_text">Book Consultation</string>
     <string name="service_details_state_empty_primary_text">No information available about this service</string>
 
     <!-- checkout screen -->
     <string name="checkout_text_field_first_name">First Name</string>
     <string name="checkout_text_field_last_name">Last Name</string>
-    <string name="checkout_text_field_email">Email</string>
+    <string name="checkout_text_field_email">Email Address</string>
     <string name="button_confirm_booking_text">Confirm Booking</string>
+    <string name="checkout_header">Complete your booking details below</string>
 
     <!-- bookings screen -->
     <string name="bookings_state_empty_primary_text">You have no bookings yet</string>
@@ -50,13 +52,13 @@
 
     <!-- cancel booking dialog -->
     <string name="cancel_booking_dialog_title">Cancel Booking?</string>
-    <string name="clear_card_dialog_text">Are you sure you want to cancel your booking?</string>
+    <string name="clear_card_dialog_text">Are you sure you want to cancel this consultation booking?</string>
 
     <!-- settings screen -->
     <string name="settings_screen_company_label">Company</string>
     <string name="settings_screen_version_label">Version</string>
     <string name="settings_screen_customer_support_label">Customer Support</string>
-    <string name="company_name">Company Name</string>
+    <string name="company_name">A2E CONSULTING LTD</string>
     <string name="app_version">1.0.0</string>
-    <string name="customer_support_link">https://website.org/</string>
+    <string name="customer_support_link">https://a2econsultinglab.uk</string>
 </resources>
