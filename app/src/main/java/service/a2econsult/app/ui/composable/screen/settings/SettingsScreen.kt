@@ -13,10 +13,10 @@ import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.layout.size
 import androidx.compose.foundation.layout.width
 import androidx.compose.material.icons.Icons
-import androidx.compose.material.icons.filled.Business
+import androidx.compose.material.icons.filled.Home
 import androidx.compose.material.icons.filled.Info
-import androidx.compose.material.icons.filled.OpenInNew
-import androidx.compose.material.icons.filled.Support
+import androidx.compose.material.icons.filled.ExitToApp
+import androidx.compose.material.icons.filled.Email
 import androidx.compose.material3.Card
 import androidx.compose.material3.CardDefaults
 import androidx.compose.material3.HorizontalDivider
@@ -55,7 +55,7 @@ fun SettingsScreenContent(modifier: Modifier = Modifier) {
         ) {
             Column {
                 SettingsRow(
-                    icon = Icons.Default.Business,
+                    icon = Icons.Default.Home,
                     label = stringResource(R.string.settings_screen_company_label),
                     value = stringResource(R.string.company_name),
                 )
@@ -77,10 +77,10 @@ fun SettingsScreenContent(modifier: Modifier = Modifier) {
                 )
 
                 SettingsRow(
-                    icon = Icons.Default.Support,
+                    icon = Icons.Default.Email,
                     label = stringResource(R.string.settings_screen_customer_support_label),
                     value = stringResource(R.string.customer_support_link),
-                    trailing = Icons.Default.OpenInNew,
+                    trailing = Icons.Default.ExitToApp,
                     onClick = {
                         val intent = Intent(
                             Intent.ACTION_VIEW,

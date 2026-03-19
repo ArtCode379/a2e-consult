@@ -22,10 +22,10 @@ import androidx.compose.foundation.pager.HorizontalPager
 import androidx.compose.foundation.pager.rememberPagerState
 import androidx.compose.foundation.shape.CircleShape
 import androidx.compose.material.icons.Icons
-import androidx.compose.material.icons.filled.Analytics
-import androidx.compose.material.icons.filled.BusinessCenter
-import androidx.compose.material.icons.filled.Groups
-import androidx.compose.material.icons.filled.TrendingUp
+import androidx.compose.material.icons.filled.Star
+import androidx.compose.material.icons.filled.Build
+import androidx.compose.material.icons.filled.Person
+import androidx.compose.material.icons.filled.ArrowForward
 import androidx.compose.material3.Card
 import androidx.compose.material3.CardDefaults
 import androidx.compose.material3.Icon
@@ -59,10 +59,10 @@ private val heroImages = listOf(R.drawable.hero1, R.drawable.hero2, R.drawable.h
 private data class CategoryItem(val icon: ImageVector, val label: String)
 
 private val categories = listOf(
-    CategoryItem(Icons.Default.BusinessCenter, "Strategy"),
-    CategoryItem(Icons.Default.Groups, "People"),
-    CategoryItem(Icons.Default.Analytics, "Operations"),
-    CategoryItem(Icons.Default.TrendingUp, "Growth"),
+    CategoryItem(Icons.Default.Build, "Strategy"),
+    CategoryItem(Icons.Default.Person, "People"),
+    CategoryItem(Icons.Default.Star, "Operations"),
+    CategoryItem(Icons.Default.ArrowForward, "Growth"),
 )
 
 @Composable

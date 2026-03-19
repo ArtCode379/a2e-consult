@@ -9,7 +9,7 @@ import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.size
 import androidx.compose.material.icons.Icons
-import androidx.compose.material.icons.filled.BusinessCenter
+import androidx.compose.material.icons.filled.Star
 import androidx.compose.material3.Icon
 import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
@@ -89,7 +89,7 @@ fun SplashScreenContent(
             modifier = Modifier.alpha(alphaAnim)
         ) {
             Icon(
-                imageVector = Icons.Default.BusinessCenter,
+                imageVector = Icons.Default.Star,
                 contentDescription = "A2E Consult",
                 tint = Color.White,
                 modifier = Modifier.size(80.dp)
